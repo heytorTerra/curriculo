@@ -1,39 +1,118 @@
 /* Importa a Fonte */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 /* Reset-CSS - Restaura as configurações para o básico */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 /* Background Escuro para o Corpo */
 
-html, body {
+html,
+body {
   background: #181818;
-  font-family: 'Lato', helvetica,arial,sans-serif;
+  font-family: "Lato", helvetica, arial, sans-serif;
   font-size: 16px;
-  color: #222
+  color: #222;
 }
 
 /* Corpo do Currículo */
@@ -48,15 +127,15 @@ p {
   font-size: 1em;
   line-height: 1.4em;
   margin-bottom: 20px;
-  color: #444
+  color: #444;
 }
 
 /* Cabeçalho */
 
 .personal-details {
   padding: 30px 40px;
-  border-bottom: 2px solid #fe5d26; 
-  background: #EDEDED;
+  border-bottom: 2px solid #fe5d26;
+  background: #ededed;
   display: flex;
   justify-content: space-between;
 }
@@ -74,21 +153,21 @@ p {
   transition: transform 400ms ease-in-out;
 }
 
-#avatar img:hover{
-  transform: scale(1.3)
+#avatar img:hover {
+  transform: scale(1.3);
 }
 
 #name-title h1 {
   font-size: 2.5em;
   font-weight: bold;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   margin-bottom: 0.2em;
 }
 
 #name-title h2 {
   font-size: 1.5em;
   margin-left: 2px;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #contact-details ul {
@@ -100,7 +179,7 @@ p {
 
 #contact-details ul li {
   margin-bottom: 3px;
-  color: #444
+  color: #444;
 }
 
 #contact-details ul li a {
@@ -112,7 +191,7 @@ p {
 #contact-details ul li:hover,
 #contact-details ul li:active,
 #contact-details ul li a:hover,
-#contact-details ul li a:active{
+#contact-details ul li a:active {
   transform: scale(1.4);
   color: #fe5d26;
 }
@@ -120,9 +199,9 @@ p {
 /* Corpo do Currículo */
 
 section {
-  border-top: 1px solid #DEDEDE;
+  border-top: 1px solid #dedede;
   padding: 20px 0 0;
-  display: flex
+  display: flex;
 }
 
 section:first-child {
@@ -145,21 +224,20 @@ section:last-child {
 }
 
 .section-title h1 {
-  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   color: #fe5d26;
 }
 
 .section-content h2 {
-  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   margin-bottom: -2px;
   color: #fe5d26;
-
 }
-.section-content h3{
-  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+.section-content h3 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -171,7 +249,6 @@ section:last-child {
   margin-bottom: 3px;
 }
 
-
 .key-skills {
   list-style-type: none;
   column-count: 3;
@@ -182,4 +259,52 @@ section:last-child {
 
 .key-skills ul li {
   margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+  #avatar {
+    display: none;
+  }
+  .key-skills {
+    column-count: 2;
+  }
+}
+
+@media all and (max-width: 601px) {
+  #cv {
+    width: 98%;
+    margin: 10px auto;
+    min-width: 280px;
+    padding: 10px;
+  }
+  #avatar {
+    display: none;
+  }
+  #name,
+  #contact-details {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .personal-details {
+    text-align: center;
+  }
+  .section-title,
+  .section-content {
+    float: none;
+    width: 100%;
+  }
+  .section-title {
+    margin-left: -2px;
+    font-size: 1.25em;
+  }
+  .key-skills {
+    column-count: 1;
+  }
+}
+
+@media print {
+  #cv {
+    width: 100%;
+  }
 }
